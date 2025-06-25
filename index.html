@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appreciation Week Voting</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🗳️ Appreciation Week Voting: Meal Format</h1>
+        <p>We’re planning Appreciation Week and need your input!<br>
+            Please vote for your preferred food/activity format for the week.</p>
+
+        <form action="https://formsubmit.co/valentinamodyrka1@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="https://mova-ops.github.io/appreciation-week/thank-you.html">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" style="display:none">
+
+            <label>👤 Your Name:</label>
+            <input type="text" name="name" placeholder="Your name" required>
+
+            <p><strong>✅ Your Choice:</strong></p>
+
+            <div class="option-group">
+                <label class="option-title">
+                    <input type="radio" name="meal-format" value="Option 1" required>
+                    💡 Option 1: Full Meal Every Day
+                </label>
+                <div class="option-description">
+                    Five days of full meals (shawarma, rice dishes, pasta, etc.) + one activity each day
+                </div>
+            </div>
+
+            <div class="option-group">
+                <label class="option-title">
+                    <input type="radio" name="meal-format" value="Option 2">
+                    💡 Option 2: Balanced Format
+                </label>
+                <div class="option-description">
+                    Three full meals (Mon, Wed, Fri) + two light (Tue, Thu) + activities daily
+                </div>
+            </div>
+
+            <div class="option-group">
+                <label class="option-title">
+                    <input type="radio" name="meal-format" value="Option 3">
+                    💡 Option 3: 4 Days Full Meals
+                </label>
+                <div class="option-description">
+                    Full meals Monday to Thursday + light lunch Friday + activities
+                </div>
+            </div>
+
+            <div class="option-group">
+                <label class="option-title">
+                    <input type="radio" name="meal-format" value="Option 4">
+                    💡 Option 4: Light Meals All Week
+                </label>
+                <div class="option-description">
+                    Snacks, fruit, and light bites every day + fun daily activities
+                </div>
+            </div>
+
+            <div class="option-group">
+                <label class="option-title">
+                    <input type="radio" name="meal-format" value="Option 5">
+                    💡 Option 5: 3-Day Event
+                </label>
+                <div class="option-description">
+                    Only 3 days with full meals and activities
+                </div>
+            </div>
+
+            <button type="submit">📩 Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
